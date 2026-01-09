@@ -1,0 +1,38 @@
+:host {
+  display: block;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f0060b, #7702ff);
+}
+
+.card {
+  width: 100%;
+  max-width: 720px;
+  background: #ffffff;
+  color: #111827;
+  border-radius: 16px;
+  padding: 2rem 2.5rem;
+  box-shadow:
+    0 10px 20px rgba(0, 0, 0, 0.12),
+    0 6px 6px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.card h1 {
+  margin: 0;
+  font-size: 2.25rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.card p {
+  margin-top: 0.75rem;
+  font-size: 1.125rem;
+  color: #4b5563;
+}

@@ -4,7 +4,15 @@ import { RouterOutlet } from '@angular/router';
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet],
-  templateUrl: './app.html',
+  template: `
+    <div class="hero">
+      <section class="card">
+        <h1>¡Mensaje desde angular!</h1>
+        <p>Este es un mensaje mejor presentado la practica de netlify.</p>
+      </section>
+    </div>
+    <router-outlet />
+  `,
   styleUrl: './app.css'
 })
 export class App {
